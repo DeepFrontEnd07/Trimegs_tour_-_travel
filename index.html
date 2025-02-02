@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="head">
+            <div class=pic1></div>
+            <h1>Trimegs</h1>
+        <div class="div1">
+            <div class="home"><a href="http://127.0.0.1:5500/index.html">home</a></div>
+            <div class="home"><a href="#about">about us</a></div>
+            <div class="home"><a href="#popular">destinations</a></div>
+            <div class="home"><a href="#what">service</a></div>
+            <div class="home"><a href="#where">contact</a> </div>
+        </div> 
+        <div class="contact">
+            <h3><a href="mail to: trimegstours@gmail.com">trimegstours@gmail.com</a></h3>
+        </div> 
+        </div>
+        <div class="pic2">
+             <!-- Java Script coding -->
+            <img src="https://kullumanali.org/wp-content/uploads/2019/06/bigstock-Manali-India-May-237461584.jpg" id="pic2" width="1253px" height="600px" >
+           <script>
+                images=["https://kullumanali.org/wp-content/uploads/2019/06/bigstock-Manali-India-May-237461584.jpg","1.avif","3.jpg","4.jpg","5.jpg","6.jpg"]
+                count=0
+                function call()
+                {
+                    document.getElementById("pic2").src=images[count]
+                    if(count<5)
+                    count++
+                    else
+                    count=0
+                }
+                setInterval(call,3000)
+            </script>
+            <h1>explore</h1>
+            <h3>INDIA WITH US</h3>
+        </div>
+
+        <!-- about -->
+        <div id="about">
+            <div class="aboutimage"></div>
+           
+            <h2>a few words</h2>
+            <h1>about us</h1>
+            <h3>Trimegs Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque rerum sunt sint officiis optio voluptas ad minus fuga quod totam<br>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, a eligendi modi aliquid placeat voluptatibus adipisci sunt animi itaque libero </h3>
+            
+
+        </div>
+
+        <!-- book ticket  -->
+        <div id="where">
+            <h1>Book your trip with trimegs</h1>
+            <h2>Destination you want to visit:<input type=text placeholder="Enter Destination" class="input"> 
+            <input type="date" placeholder="Date" class="input1">
+            <select class="input2">
+                <option value="">Travel Type</option>
+                <option value="">Solo</option>
+                <option value="">2 Person</option>
+                <option value="">3 Person</option>
+                <option value="">4 Person</option>
+                <option value="">5 Person</option>
+            </select>
+            <input type="button" value="Search" id="" class="input3">
+            </h2>
+        </div>
+
+        <!-- popular -->
+        <div id="popular">
+            <h1>Popular Destination</h1>    
+            <h3>Feel the luxury, comfort & make memories with</h3>
+            <h2> The TRIMEGS</h2>
+        <div class="pichead">
+            <div class="pic3"><h4> Hot Air Ballon Activity of MANALI</h4></div>
+            <div class="pic4"><h4>KULLU MANALI- ICE</h4></div>
+            <div class="pic5"><h4>MANALI Beas Hill Resort</h4></div>
+        </div>
+        <div class="pichead2">
+            <div class="pic6"><h4>SHIMLA's Greenery</h4></div>
+            <div class="pic7"><h4>Lush Green Valleys - MANALI</h4></div>
+            <div class="pic8"><h4>ATAL Tunnel Rohtang</h4></div>
+        </div>
+
+        </div>
+        <!-- service  -->
+
+
+        <div class="more"><input type="button" value="More Places" class="more1"></div>
+       <div id="what">
+        <h2>what we serve</h2>
+        <h1>TRIMEGS provide top destinations<br> in india</h1>
+        <h3>Far far away, behind the word mountains, far from the countries Vokalia <br>and Consonantia, there live the blind texts. Separated they live in <br>Bookmarksgrove right at the coast of the Semantics, a large language ocean.</h3>
+         <div class="whatimage">
+            <h1>02</h1>
+            <h5>JUNE</h5>
+            <h3>best time to travel manali</h3>
+            <h4>Lorem ipsum dolor sit amet, consectetur<br> adipisicing elit. Dicta, accusamus!</h4>
+         </div>
+         <div class="whatshimla">
+            <h1>01</h1>
+            <h5>DECEMBER</h5>
+            <h3>best time to travel shimla</h3>
+            <h4>Lorem ipsum dolor sit amet, consectetur<br> adipisicing elit. Dicta, accusamus!</h4>
+         </div>
+         <div class="himachal">
+            <h1>10</h1>
+            <h5>MARCH</h5>
+            <h3>best time to travel Himachal Pardesh</h3>
+            <h4>Lorem ipsum dolor sit amet, consectetur<br> adipisicing elit. Dicta, accusamus!</h4>
+          </div>
+          <div class="sidepic"></div>
+       </div>
+       <!-- <div class="hotels"></div> -->
+    </div>
+    
+    
+</body>
+</html>

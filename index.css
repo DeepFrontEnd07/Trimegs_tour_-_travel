@@ -1,0 +1,606 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+/* body{ */
+    /* background-position: fixed; */
+    /* background-size: cover; */
+    /* scrollbar-width:none; */
+    /* background-attachment: ; */
+
+.head{
+    width:98vw;
+    height:110px;
+    background-color: #dde5eb;
+    margin:0px;
+    /* position:sticky;
+    top:0px; */
+}
+.pic1{
+    width:80px;
+    height:40px;
+    /* background-color:aqua; */
+    position:absolute;
+    top:35px;
+    left:15px;
+    background-image:url(pic1.jpg);
+    background-size:100% 100%;
+}
+.head h1{
+    /* background-color:yellow; */
+    color:black;
+    font-style:oblique;
+    position:absolute;
+    top:1px;
+    left:110px;
+    font-size:520%;
+    font-family: "Dancing Script", cursive;
+    /* text-decoration:underline */
+}
+.div1{
+    width:800px;
+    height:75px;
+    /* background-color:aqua; */
+    position:absolute;
+    left:420px;
+    top:60px;
+}
+.home{
+    text-transform:capitalize;
+    font-size:130%;
+    display: inline-block;
+    width:110px;
+   color:white;
+    text-align:center;
+    
+}
+.home a{
+    text-decoration: none;
+
+}
+.home a:hover{
+    color:red;
+}
+.contact{
+    width:210px;
+    height:32px;
+    background-color:lightgreen;
+    position:absolute;
+    right:60px;
+    top:58px;
+    border:lightgreen 2px solid;
+    border-radius:5px;
+}
+.contact h3{
+    text-align:center;
+    color:darkblue;
+}
+.pic2{
+    width:98vw;
+    height:600px;
+    background-color:aqua;
+    background-image:url(https://kullumanali.org/wp-content/uploads/2019/06/bigstock-Manali-India-May-237461584.jpg);
+
+
+}
+/* @keyframes pic{
+    10%{background-image:url(https://www.holidify.com/images/bgImages/KASOL.jpg); background-size:100% 100%;}
+    /* 30%{background-image:url(https://moxtain.s3.ap-south-1.amazonaws.com/blogs/Kasol/pravati-valley-kasol.jpg);background-size:100% 100%;} */
+    /* 60%{background-image:url(https://www.honeymoonpackagesmanali.org/uploads/8/2/6/1/8261259/camping-in-kasol-himachal-pradesh_1.jpg); background-size:100% 100%;} */
+    /* 90%{background-image:url(https://static.toiimg.com/photo/92773614.cms);background-size:100% 100%} 
+}    */
+
+
+
+.pic2 h1{
+    color:yellow;
+    position:absolute;
+    top:200px;
+    left:380px;
+    font-size:150px;
+    text-transform:uppercase;
+    /* opacity:0.3; */
+    font-style:italic;
+    /* background:white; */
+    /* mix-blend-mode: screen; */
+}
+.pic2 h3{
+    color:white;
+    /* font-style:italic; */
+    position:absolute;
+    top:340px;
+    left:470px;
+    font-size:70px;
+    font-weight:300px;
+    /* background:white;  */
+    /* mix-blend-mode: screen; */
+}
+#about{
+    width:98vw;
+    height:600px;
+     /* background-color:yellow;  */
+    margin-top:1px;
+    /* margin-bottom:100px; */
+    border:black 1.5px solid;
+    
+}
+.aboutimage{
+    width:700px;
+    height:600px;
+    background-color:yellow;
+    background-image:url(https://amazingincredible.files.wordpress.com/2021/01/20210110_000303-1.jpg);
+    background-size:100% 100%;
+}
+#about h2{
+    position:absolute;
+    top:800px;
+    left:850px;
+    font-size:300%;
+    font-family:"Dancing Script", cursive;
+    /* font-weight:8                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         0px; */
+}
+#about h1{
+    position:absolute;
+    top:860px;
+    left:830px;
+    text-transform:capitalize;
+    font-size:530%;
+
+}
+#about h3{
+    position:absolute;
+    top:970px;
+    left:830px;
+    font-size:150%;
+    color:grey;
+
+}
+
+ /* where  */
+
+#where{
+    width:98vw;
+    height:160px;
+    background-color:blue;
+    display:grid;
+    place-items: center;
+    position:absolute;
+    top:4800px;
+}
+#where h1{
+    position:absolute;
+    top:-60px;
+    font-size:300%;
+    text-transform:uppercase;
+    color:darkred;
+    font-style:italic;
+}
+#where h2{
+    color:white;
+    font-size:150%;
+    position:absolute;
+    top:50px;
+    left:20px;
+}
+.input{
+    
+    width:200px;
+    height:33px;
+    margin:5px 0px 0px 8px;
+    /* mix-blend-mode: screen; */
+    text-align: center;
+    font-size:70%;
+    border:black 2px solid;
+    
+}
+.input1{
+    width:200px;
+    height:33px;
+    margin:2px 0px 0px 8px;
+    /* mix-blend-mode: screen; */
+    text-align: center;
+    font-size:70%;
+    border:black 2px solid;
+    
+}
+.input2{
+    width:200px;
+    height:35px;
+    margin:5px 0px 0px 8px;
+    /* mix-blend-mode: screen; */
+    text-align: center;
+    font-size:70%;
+    border:black 2px solid;
+}
+.input3{
+    color:white;
+    background-color:red;
+    width:180px;
+    height:40px;
+    margin:5px 0px 0px 8px;
+    text-align: center;
+    font-size:85%;
+    border:black 2px solid;
+} 
+
+/* popular */
+#popular{
+    width:98vw;
+    height:1500px;
+     /* background-color:aqua;  */
+    /* margin-top:500px; */
+
+    
+}
+#popular h1{
+    color:black;
+    position:absolute;
+    top:1350px;
+    left:550px;
+    font-size:300%;
+} 
+#popular h3{
+    color:darkred;
+    position:absolute;
+    top:1410px;
+    left:500px;
+    font-size:170%;
+    font-style:italic;
+
+} 
+#popular h2{
+    color:darkred;
+    position:absolute;
+    top:1440px;
+    left:560px;
+    font-size:400%;
+    font-family: "Caveat", cursive;
+
+} 
+.pichead{
+    width:98vw;
+    background-color: aqua;
+    display: flex;
+}
+.pic3{
+    width:390px;
+    height:530px;
+    /* border:black 2px solid; */
+    background-image:url(https://d26dp53kz39178.cloudfront.net/media/uploads/products/Hot_Air_Balloon-10_aGBn8X6.jpg);
+    background-size:100% 100%;
+    /* border-radius:9px; */
+    position: absolute;
+    top:1560px;
+    left:30px;
+} 
+.pic3 h4{
+    /* color:orangered; */
+    font-style:oblique;
+    position:absolute;
+    top:535px;
+    left:5px;
+    font-size:180%;
+} 
+.pic3:hover{
+    border:black 1.5px solid;
+    border-radius:5px;
+}
+.pic3 h4:hover{
+    color:red;
+}
+.pic4 {
+
+    width:330px;
+    height:530px;
+    /* border:black 2px solid; */
+    /* background-image:url(https://www.alightindia.com/CDN/Content/Images/PostImages/MEDIUM/Kullu%20Manali--450b0e.jpg); */
+    background-image:url(pic4.jpg);
+    background-size:100% 100%;
+    /* border-radius:9px; */
+    position: absolute;
+    top:1560px;
+    left:930px;
+} 
+ .pic4 h4{
+    /* color:orangered; */
+    font-style:oblique;
+    position:absolute;
+    /* ; */
+    top:530px;
+    left:35px;
+    font-size:190%; 
+}
+.pic4:hover{
+    border:black 1.5px solid;
+    border-radius:5px;
+}
+.pic4 h4:hover{
+    color:red;
+}
+
+.pic5{
+    width:370px;
+    height:530px;
+    /* border:black 2px solid; */
+    background-image:url(pic5.jpg);
+    background-size:100% 100%;
+    /* border-radius:9px; */
+    position: absolute;
+    top:1560px;
+    left:500px;
+} 
+ .pic5 h4{
+    /* color:orangered; */
+    font-style:oblique;
+    position:absolute;
+    top:530px;
+    left:25px;
+    font-size:220%;
+} 
+.pic5:hover{
+    border:black 1.5px solid;
+    border-radius:5px;
+}
+.pic5 h4:hover{
+    color:red;
+}
+
+.pichead2{
+    width:98vw;
+    background-color: aqua;
+    display: flex;
+}
+
+.pic6{
+    width:390px;
+    height:530px;
+    /* border:black 2px solid; */
+    background-image:url(pic6.jpg);
+    background-size:100% 100%;
+    /* border-radius:9px; */
+    position: absolute;
+    top:2180px;
+    left:30px;
+} 
+ .pic6 h4{
+    /* color:darkblue; */
+    font-style:oblique;
+    position:absolute;
+    top:535px;
+    left:40px; 
+    font-size:230%;
+ }
+ .pic6:hover{
+    border:black 1.5px solid;
+    border-radius:5px;
+}
+.pic6 h4:hover{
+    color:red;
+}
+ .pic7{
+    width:370px;
+    height:530px;
+    /* border-radius:9px; */
+    /* border:black 2px solid; */
+    background-image:url(https://www.justahotels.com/wp-content/uploads/2023/10/Places-To-Visit-in-Manali.jpg);
+    background-size:100% 100%;
+    position: absolute;
+    top:2180px;
+    left:500px;
+} 
+ .pic7 h4{
+    /* color:darkblue; */
+    font-style:oblique;
+    position:absolute;
+    top:535px;
+    left:0px;
+    font-size:200%;
+}
+.pic7:hover{
+    border:black 1.5px solid;
+    border-radius:5px;
+}
+.pic7 h4:hover{
+    color:red;
+} 
+ .pic8{
+    width:330px;
+    height:530px;
+    /* border:black 2px solid; */
+    background-image:url(https://akm-img-a-in.tosshub.com/indiatoday/images/story/202312/himachal-tourism-241314662-16x9_0.jpg?VersionId=Aly.2XczgiURXux6KoeWA7dTSaLM61Uv&size=690:388);
+    background-size:100% 100%;
+    /* border-radius:9px; */
+    position: absolute;
+    top:2180px;
+    left:930px;
+}
+ .pic8 h4{
+    /* color:orangered; */
+    font-style:oblique;
+    position:absolute;
+    top:535px;
+    left:60px;
+    font-size:220%;
+} 
+.pic8:hover{
+    border:black 1.5px solid;
+    border-radius:5px;
+}
+.pic8 h4:hover{
+    color:red;
+}
+.more{
+    position:absolute;
+    top:2830px;
+    left:650px;
+    
+}
+.more1{
+    font-size:230%;
+    background-color: red;
+    color:white;
+    cursor:pointer;
+    width:250px;
+    height:60px;
+    border:black 3px outset;
+   
+}
+.more1:hover{
+    border-top-left-radius:4px;
+    border-bottom-right-radius: 4px;
+}
+/* service */
+#what{
+    width:98vw;
+    height:1500px;
+    /* background-color:aqua; */
+}
+#what h2{
+    text-transform:uppercase;
+    color:brown;
+    font-size:180%;
+    margin:250px 0px 0px 80px;
+
+}
+#what h1{
+    text-transform:capitalize;
+    font-size:320%;
+    margin-left:80px;
+    margin-top:10px;
+}
+#what h3{
+    text-transform:capitalize;
+    margin:6px 0px 0px 80px;
+    color:grey;
+}
+.whatimage{
+    width:350px;
+    height:300px;
+    background-color:yellow;
+    position:absolute;
+    left:80px;
+    top:3400px;
+    background-image:url(https://kplexpeditions.com/wp-content/uploads/2023/09/Spiti-Winter-Trip-Himachal-Prade.jpg);
+    background-size:100% 100%;
+}
+.whatimage h1{
+    position:absolute;
+    left:300px;
+    font-size:480%;
+    top:-3px;
+}
+.whatimage h5{
+    position:absolute;
+    left:460px;
+    font-size:150%;
+    top:55px;
+    color:grey;
+}
+.whatimage h3{
+  position:absolute;
+  left:300px;
+  top:95px;
+  color:black;
+  width:500px;
+  font-size:250%;
+}
+.whatimage h4{
+    position:absolute;
+    left:380px;
+    top:150px;
+    color:grey;
+    width:500px;
+    font-size:130%;
+}
+.whatshimla{
+    width:350px;
+    height:300px;
+    background-color:yellow;
+    position:absolute;
+    left:80px;
+    top:3800px;
+    background-image:url(https://dynamic.tourtravelworld.com/package-images/photo-big/dir_27/804070/316609.jpeg);
+    background-size:100% 100%;
+}
+.whatshimla h1{
+    position:absolute;
+    left:300px;
+    font-size:480%;
+    top:-3px;
+}
+.whatshimla h5{
+    position:absolute;
+    left:460px;
+    font-size:150%;
+    top:55px;
+    color:grey;
+}
+.whatshimla h3{
+    position:absolute;
+    left:300px;
+    top:95px;
+    color:black;
+    width:500px;
+    font-size:220%;
+}
+.whatshimla h4{
+    position:absolute;
+    left:380px;
+    top:150px;
+    color:grey;
+    width:500px;
+    font-size:130%;
+}
+
+
+.himachal{
+    width:350px;
+    height:300px;
+    background-color:yellow;
+    position:absolute;
+    left:80px;
+    top:4200px;
+    background-image:url(https://www.trawell.in/admin/images/upload/487035497Shimla_Main.jpg);
+    background-size:100% 100%;
+}
+.himachal h1{
+    position:absolute;
+    left:300px;
+    font-size:480%;
+    top:-3px;
+}
+.himachal h5{
+    position:absolute;
+    left:465px;
+    font-size:150%;
+    top:55px;
+    color:grey;
+}
+
+.himachal h3{
+    position:absolute;
+    left:300px;
+    top:95px;
+    color:black;
+    width:650px;
+    font-size:240%;
+}   
+.himachal h4{
+    position:absolute;
+    left:380px;
+    top:150px;
+    color:grey;
+    width:500px;
+    font-size:130%;
+} 
+
+.sidepic{
+    width:350px;
+    height:650px;
+    background-color:yellow;
+    position:absolute;
+    top:3470px;
+    left:910px;
+    background-image:url(https://www.holidayrentals.co.in/owner/IND1727_1446706770.JPG);
+    background-size:100% 100%;
+}
