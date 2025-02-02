@@ -6,6 +6,6 @@
 Key Features:                                                                                                                                                              
 1. Visually appealing UI with modern frontend technologies.
 2. Detailed tour packages with images, descriptions, and pricing.
-3.Interactive design for an engaging user experience.
-                                                                                                                                                                                  
+3. Interactive design for an engaging user experience. 
+
 --> Visit the Live Link: 
